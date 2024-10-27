@@ -45,14 +45,14 @@ Nous avons devenu qu'une exception personnalisée qui permettra de donner un mes
 
 3. Concepts POO Utilisés
 
-Encapsulation
-La capsulation consiste à protéger les attributs des classes mis en privé, en les utilisant avec des guetteurs ou des setters qui sont des méthodes. Dans notre exercice, nous avons des méthodes comme retourner() et louer() qui nous permettent de manipuler le statut des véhicules.
+- Encapsulation
+L'Encapsulation consiste à protéger les attributs des classes mis en privé, en les utilisant avec des guetteurs ou des setters qui sont des méthodes. Dans notre exercice, nous avons des méthodes comme retourner() et louer() qui nous permettent de manipuler le statut des véhicules.
 
-Héritage
+- Héritage
 L'héritage permet de réutiliser des fonctions et les attributs de la classe parent dans des classes filles ici, nous avons la classe véhicule classe parent qui va permettre aux classes filles qui sont les classes camion et voitures d'hériter des attributs de véhicules.
 
-Polymorphisme
+- Polymorphisme
 Le polymorphisme permet d’utiliser un même type générique pour manipuler des objets de différentes sous-classes comme la méthode afficher()
 
-Gestion des Exceptions
+- Gestion des Exceptions
 L'application utilise des exceptions pour ne pas qu'il y ait des erreurs telles que le fait de louer une voiture qui a déjà été louée ou de rechercher un client qui n'a pas été inscrit dans la liste des clients.
